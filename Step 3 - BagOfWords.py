@@ -103,6 +103,9 @@ df["Author"].value_counts()
 #Number of Tweet per Location
 df["Location"].value_counts()
 
+#Number of Tweet over Sentimental
+df["Annotate"].value_counts()
+
 
 ## Create Word Cloud
 from wordcloud import WordCloud
